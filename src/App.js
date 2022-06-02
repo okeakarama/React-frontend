@@ -22,10 +22,6 @@ class App extends Component {
           <Route path='/about' component={<About />} />
           <Route path='/blog' component={<Blog />} />
           <Route path='*' component={<Footer />} />
-          
-          {/* <Route exact path='/' component={Home} />
-          <Route exact path='/about' component={About} />
-          <Route exact path='/blog' component={Blog} /> */}
                   
         </Routes>
       </BrowserRouter>

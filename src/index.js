@@ -31,7 +31,6 @@ export default function App() {
             <Route path="github" element={<Provider store={store}>
                                             <Github />
                                         </Provider>} />
-            {/* <Route path="*" element={<NoPage />} /> */}
           </Route>
         </Routes>
       </BrowserRouter>
